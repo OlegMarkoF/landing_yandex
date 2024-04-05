@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 1920px;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.page {
+  margin: 0 auto;
+  /* padding: 0 20px; */
+  /* max-width: 1920px;
+
+  overflow: hidden; */
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .page {
+    min-width: 335px;
+  }
+
+}
